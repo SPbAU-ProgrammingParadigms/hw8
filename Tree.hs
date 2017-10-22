@@ -1,10 +1,10 @@
 import Prelude hiding (lookup)
 
--- Implement binary search tree (4 points)
+-- Implement a binary search tree (4 points)
 -- 2 extra points for a balanced tree
 data BinaryTree k v = undefined
 
--- “Ord k =>” requires, that elements of type k are comparable
+-- “Ord k =>” requires, that the elements of type k are comparable
 -- Takes a key and a tree and returns Just value if the given key is present,
 -- otherwise returns Nothing
 lookup :: Ord k => k -> BinaryTree k v -> Maybe v
